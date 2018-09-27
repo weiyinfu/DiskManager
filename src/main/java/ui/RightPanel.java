@@ -44,6 +44,7 @@ public void display(TreeSelectionEvent e) {
     if (node.getSons() == null) {
         listModel.addElement(node.getName() + " : " + showSize(node.getSize()));
     } else {
+        //添加排序，按照文件大小、更改时间、名称、类型（根据后缀名）
         for (Node i : node.getSons().values()) {
             listModel.addElement(i.getName() + " : " + showSize(i.getSize()));
         }
