@@ -1,4 +1,4 @@
-此repo已废弃，请直接下载TreeSize这款好用的工具。
+此repo已废弃，请直接下载TreeSize这款好用的工具：https://treesize.en.softonic.com/download
 
 记录文件大小，发现大文件
 如何对建立好的索引进行压缩
